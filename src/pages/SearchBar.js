@@ -13,7 +13,7 @@ const SearchBar = () => {
 
   return (
     <InputGroup
-      className="w-50 my-2 m-auto"
+      className={`${'w-50 my-2 m-auto' }` }
       value={lookupItem}
       onChange={(e) => setLookupItem(e.target.value)}
     >

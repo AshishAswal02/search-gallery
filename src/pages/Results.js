@@ -47,8 +47,8 @@ const Result = ({ setData, data }) => {
   
   return (
     <>
-{show && <Alert variant="warning" onClose={() => setShow(false)} dismissible>
-        <Alert.Heading>You can double click the image to donwload it</Alert.Heading>
+{show && <Alert className="m-auto" variant="warning" onClose={() => setShow(false)} dismissible>
+        <Alert.Heading>Double click to donwload</Alert.Heading>
 
       </Alert>}
       <section className="gallery  min-vh-100">
